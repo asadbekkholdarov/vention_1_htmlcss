@@ -1,0 +1,53 @@
+
+.card {
+    height: 406px;
+    width: 276px;
+  }
+  .card img{
+    border-radius: 7px;
+    width: 260px;
+    height: 260px;
+    flex-shrink: 0;
+    text-align: center;
+  }
+  
+  .card h2 {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 10px;
+  margin-top: -30px;
+  }
+  .card span {
+  color: #489DFF;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  margin-left: 10px;
+  }
+  
+  .card button {
+    border-radius: 7px;
+  background:  #489DFF;
+  padding: 16px 50px;
+  border: none;
+  color: white;
+  letter-spacing: 1px;
+  font-weight: 700;
+  display: block;
+  margin-left: 10px;
+  margin-top: 20px;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 14px;
+  }
